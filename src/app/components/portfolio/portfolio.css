@@ -3,7 +3,14 @@
       --main-backgc:#fff;
 background-color: var(--main-backgc);
 color: var(--main-color);
-height: calc(100vh - 74px);
+
+
+}
+
+@media (min-width: 992px) {
+  .portfolio {
+    height: 100vh !important;
+  }
 }
 
 .layer-bluez {
